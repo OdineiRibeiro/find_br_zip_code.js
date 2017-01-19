@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Find Your BR Zip Code</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <a href="https://github.com/OdineiRibeiro/find_br_zip_code.js"><img style="position: fixed; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+    <div class="container text-center">
+      <h2>Find your BR zip code!</h2>
+      <hr>
+      <h4>Try this one: 01310-200 and get the address from one of the most beautiful brazillians museum</h4>
+      <div class="panel panel-info">
+        <div class="panel-heading">Find zip code!</div>
+        <div class="panel-body">
+          <form role="form" class="form-horizontal">
+
+            <div class="form-group">
+              <div class="col-sm-offset-1 col-sm-3">
+                <input class="form-control" placeholder="CEP" type="text" name="cep">
+              </div>
+              <div class="col-sm-1">
+                <button type="button" class="btn btn-info" onclick="buscaCep();"><span class="glyphicon glyphicon-search"></span></button>
+              </div>
+              <div class="col-sm-6">
+                <input class="form-control" placeholder="Endereço" type="text" name="endereco">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-sm-offset-1 col-sm-6">
+                <input class="form-control" placeholder="Bairro" type="text" name="bairro">
+              </div>
+              <div class="col-sm-4">
+                <input class="form-control" placeholder="Complemento" type="text" name="complemento">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-sm-offset-1 col-sm-8">
+                <input class="form-control" placeholder="Cidade" type="text" name="cidade">
+              </div>
+              <div class="col-sm-2">
+                <input class="form-control" placeholder="Estado" type="text" name="estado">
+              </div>
+            </div>
+
+          </form>
+          <h3>But, works only in Brazil :(</h3>
+
+        </div>
+      </div>
+
+      <hr>
+
+      <h4>I found all this code (HTML and JS) on <a href="http://blog.alura.com.br/preenchendo-formulario-html-automaticamente-com-ajax/" target="_blank">Alura's Blog</a></h4>
+      <div class="panel panel-success">
+        <div class="panel-heading">Code snipet!</div>
+        <div class="panel-body">
+          <h4 class="text-left"><strong>find_br_zip_code.js</strong></h4>
+          <script src="https://gist.github.com/OdineiRibeiro/7ba50a1c5ef370d0ce5c2514fb1cb760.js"></script>
+        </div>
+      </div>
+    </div>
+
+    <script src="find_br_zip_code.js"></script>
+  </body>
+</html>
